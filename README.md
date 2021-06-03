@@ -1,2 +1,2 @@
 # WebsiteForBiggener
-https://websiteforbiggener-1.anasahmed13.repl.co/
+https://anasahmad96.github.io/WebsiteForBiggener/
