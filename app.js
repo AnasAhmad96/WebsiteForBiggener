@@ -1,4 +1,3 @@
-<<<<<<<
 // alert part 1 for user alert
 var answer = prompt('Are you biggener ?')
 alert('welcome to WebsiteForBiggener')
