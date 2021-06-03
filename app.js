@@ -1,10 +1,13 @@
 // alert part 1 for user alert
+alert('welcome to WebsiteForBiggener')
 var answer = prompt('Are you biggener ?')
-if(answer === 'yes'){
+if(answer === 'yes')
+{
   alert('this course for you , Welcome')
 }
 else{
   alert('you are not allowed to enter the website')
+
 }
 
 // part two to enter num and if enter wrong user have just 5 chance to correct (nested condition)
