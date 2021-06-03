@@ -2,8 +2,6 @@
 var answer = prompt('Are you biggener ?')
 alert('welcome to WebsiteForBiggener')
 
-var answer = prompt('Are you biggener ?')
-
 if(answer === 'yes')
 {
   alert('this course for you , Welcome')
