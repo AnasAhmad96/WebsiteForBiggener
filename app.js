@@ -42,7 +42,6 @@ function alertWeclome()
 {
 alert('welcome to WebsiteForBiggener')
 var answer = prompt('Are you biggener ?')
-alert('welcome to WebsiteForBiggener')
 
 if(answer === 'yes')
 {
@@ -54,13 +53,10 @@ else{
 }
 }
 // lab07 add function rating us 
-function ratingOurWebsite()
-{
-  var inputuser=prompt
+function ratingOurWebsite(){
 
 // part two to enter num and if enter wrong user have just 5 chance to correct (nested condition)
-var inputuser=prompt
-("pleas rate our site from 1 to 5")
+var inputuser=prompt("pleas rate our site from 1 to 5")
 if(inputuser <1 || inputuser >5 )
  {
    alert("you enterned wrong rate ")
@@ -85,12 +81,15 @@ alert ("Thank you for your time")
 //   }
 
 var inputnum=prompt("how many images do u want to see?");
-function loobing()
-{
+function loobing(){
 for(var m=0; m < inputnum; m++){
   document.write('<img src="https://st3.depositphotos.com/2447577/14926/v/1600/depositphotos_149262334-stock-illustration-dont-give-up-handwritten-lettering.jpg"style="width:80px; height:80px"/>')
 }
 }
+
+// last part for img loop and counter but i dont want chose another photo because the size will be ugly on my page so after any level i will learn more how add new features 
+
+
 //called function
 alertWeclome();
 ratingOurWebsite();
