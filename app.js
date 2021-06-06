@@ -42,7 +42,6 @@ function alertWeclome()
 {
 alert('welcome to WebsiteForBiggener')
 var answer = prompt('Are you biggener ?')
-var answer = prompt('Are you biggener ?')
 alert('welcome to WebsiteForBiggener')
 
 if(answer === 'yes')
@@ -78,7 +77,6 @@ alert ("Thank you for your time")
 function loobing()
 {
   for (var a=1 ; a <= 5 ; a++)
-=======
 // last part for img loop and counter but i dont want chose another photo because the size will be ugly on my page so after any level i will learn more how add new features 
 for (var a=1 ; a <= 5 ; a++)
 {
