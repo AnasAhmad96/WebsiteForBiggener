@@ -74,20 +74,24 @@ if(inputuser <1 || inputuser >5 )
 alert ("Thank you for your time")
 }
 // lab07 add function looping (for,while)
+// last part for img loop and counter but i dont want chose another photo because the size will be ugly on my page so after any level i will learn more how add new features 
+//function loobing()
+//{
+//   var inputnum=prompt
+// ("how many imgs do you want to see")
+//   for (var a=1 ; a < inputnum ; a++)
+//   {
+//     document.write ('<img src="https://st3.depositphotos.com/2447577/14926/v/1600/depositphotos_149262334-stock-illustration-dont-give-up-handwritten-lettering.jpg"style="width:80px; height:80px"')
+//   }
+
+var inputnum=prompt("how many images do u want to see?");
 function loobing()
 {
-  for (var a=1 ; a <= 5 ; a++)
-// last part for img loop and counter but i dont want chose another photo because the size will be ugly on my page so after any level i will learn more how add new features 
-for (var a=1 ; a <= 5 ; a++)
-{
-var img = document.createElement("img");
-img.src = "small.png";
-var src = document.getElementById("x");
-src.appendChild(img);
-document.write( "   " + a)
+for(var m=0; m < inputnum; m++){
+  document.write('<img src="https://st3.depositphotos.com/2447577/14926/v/1600/depositphotos_149262334-stock-illustration-dont-give-up-handwritten-lettering.jpg"style="width:80px; height:80px"/>')
 }
 }
-// called function
+//called function
 alertWeclome();
 ratingOurWebsite();
 loobing();
